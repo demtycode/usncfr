@@ -1,0 +1,21 @@
+
+# === SETTINGS ===
+stratumproxy enabled
+
+globalminer ethminer
+claymore=flags -allcoins etc
+stratumproxy miner
+safevolt disabled
+flags --cl-global-work 8192 --farm-recheck 200
+
+globalfan 90
+maxgputemp 95
+
+# === WALLET AND POOL INFO ===
+proxywallet 0xf91bE51cE48a5551c7420a581346C44fe709D41b
+proxypool1 us1.ethermine.org:4444
+proxypool2 us2.ethermine.org:4444
+
+# === WEB PAGE AND LOC NAMES ===
+custompanel prti18918600
+loc c39e4c 202-01
